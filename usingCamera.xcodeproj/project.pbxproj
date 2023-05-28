@@ -11,6 +11,7 @@
 		377384322A2302D80072BCDE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377384312A2302D80072BCDE /* ContentView.swift */; };
 		377384342A2302D90072BCDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 377384332A2302D90072BCDE /* Assets.xcassets */; };
 		377384382A2302D90072BCDE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 377384372A2302D90072BCDE /* Preview Assets.xcassets */; };
+		3773843F2A230ECE0072BCDE /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3773843E2A230ECE0072BCDE /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		377384332A2302D90072BCDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		377384352A2302D90072BCDE /* usingCamera.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = usingCamera.entitlements; sourceTree = "<group>"; };
 		377384372A2302D90072BCDE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3773843E2A230ECE0072BCDE /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				3773842F2A2302D80072BCDE /* usingCameraApp.swift */,
 				377384312A2302D80072BCDE /* ContentView.swift */,
+				3773843E2A230ECE0072BCDE /* ImagePicker.swift */,
 				377384332A2302D90072BCDE /* Assets.xcassets */,
 				377384352A2302D90072BCDE /* usingCamera.entitlements */,
 				377384362A2302D90072BCDE /* Preview Content */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3773843F2A230ECE0072BCDE /* ImagePicker.swift in Sources */,
 				377384322A2302D80072BCDE /* ContentView.swift in Sources */,
 				377384302A2302D80072BCDE /* usingCameraApp.swift in Sources */,
 			);
@@ -267,6 +271,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"usingCamera/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need permission to use the camera.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -303,6 +308,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"usingCamera/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need permission to use the camera.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
